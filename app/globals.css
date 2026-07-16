@@ -10,6 +10,9 @@
   --green: #3fb950;
   --purple: #a371f7;
   --red: #f85149;
+  --dropdown-bg: #1a1f2b;
+  --dropdown-text: #e6edf3;
+  --dropdown-border: #2a3040;
 }
 
 body {
@@ -112,11 +115,11 @@ body {
 }
 
 .trade-input {
-  background: rgba(255,255,255,0.04);
-  border: 1px solid var(--border);
+  background: var(--dropdown-bg);
+  border: 1px solid var(--dropdown-border);
   border-radius: 9px;
   padding: 11px 12px;
-  color: var(--text);
+  color: var(--dropdown-text);
   font-size: 0.78rem;
   font-family: 'SF Mono', 'Fira Code', monospace;
   outline: none;
@@ -132,14 +135,19 @@ body {
 
 .trade-select {
   flex: 1;
-  background: rgba(255,255,255,0.04);
-  border: 1px solid var(--border);
+  background: var(--dropdown-bg);
+  border: 1px solid var(--dropdown-border);
   border-radius: 9px;
   padding: 11px 8px;
-  color: var(--text);
+  color: var(--dropdown-text);
   font-size: 0.72rem;
   outline: none;
   cursor: pointer;
+}
+
+.trade-select option {
+  background: var(--dropdown-bg);
+  color: var(--dropdown-text);
 }
 
 .trade-arrow {
