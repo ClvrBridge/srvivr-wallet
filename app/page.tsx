@@ -17,7 +17,7 @@ async function routeQuote(type: string, params: Record<string, unknown>) {
 
 const FIAT_LIST = ['USD','EUR','GBP','CAD','AUD','JPY','CHF','INR','BRL','NGN','TRY','ZAR','KES','MXN','ARS'];
 const CRYPTO_LIST = ['BTC','ETH','USDC','USDT','SOL','DOGE','XRP','ADA','LINK','XLM','ZEC','XMR','DAI','MATIC','DOT','LTC','WBTC'];
-const SWAP_LIST = ['ETH','WBTC','LINK','SOL','DOGE','XRP','ADA','XLM','ZEC','XMR','USDC','USDT','DAI','USDS','MATIC','DOT','LTC'];
+const SWAP_LIST = ['BTC','ETH','WBTC','LINK','SOL','DOGE','XRP','ADA','XLM','ZEC','XMR','USDC','USDT','DAI','USDS','MATIC','DOT','LTC'];
 
 export default function Home() {
   const [tab, setTab] = useState<'buy' | 'sell' | 'swap' | 'spread'>('buy');
