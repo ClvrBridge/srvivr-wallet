@@ -2,7 +2,7 @@
 
 **Only wallets that want to survive will onboard with CLVRBRIDGE.**
 
-Srvivr is the open-source reference wallet that demonstrates CLVRBRIDGE integration in 30 minutes. Every trade routes through 21 providers to find the best price. Clone it. Deploy it. Survive.
+Srvivr is the open-source reference wallet that demonstrates CLVRBRIDGE integration in 30 minutes. Every trade routes through 33 providers to find the best price. Clone it. Deploy it. Survive.
 
 > 75–85% of crypto wallets don't make it past Year 3. The #1 killer? Not being able to monetize. Srvivr Wallet exists to show you how to fix that.
 
