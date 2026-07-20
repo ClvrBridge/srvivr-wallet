@@ -6,6 +6,10 @@ Srvivr is the open-source reference wallet that demonstrates CLVRBRIDGE integrat
 
 > 75–85% of crypto wallets don't make it past Year 3. The #1 killer? Not being able to monetize. Srvivr Wallet exists to show you how to fix that.
 
+> This wallet is running on a demo API key. Want your own? Start a free 90-day pilot. Go to clvrbridge.com
+
+
+
 ## Quick Start
 
 ```bash
